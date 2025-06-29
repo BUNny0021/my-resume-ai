@@ -1,7 +1,8 @@
 
 'use client';
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
-import { Github, LogIn } from 'lucide-react'; // Using GitHub for simplicity
+// This is the NEW, CORRECT line
+import { Github } from 'lucide-react';
 
 export default function LoginPage() {
   const supabase = createClientComponentClient();
